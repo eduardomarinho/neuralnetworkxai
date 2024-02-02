@@ -2,912 +2,117 @@
 |   |--- feature_30 <= 1.50
 |   |   |--- feature_28 <= 0.50
 |   |   |   |--- feature_16 <= 0.50
-|   |   |   |   |--- feature_6 <= 163.50
-|   |   |   |   |   |--- feature_12 <= 120.05
-|   |   |   |   |   |   |--- feature_15 <= 0.50
-|   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_15 >  0.50
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |--- feature_12 >  120.05
-|   |   |   |   |   |   |--- feature_33 <= 15.05
-|   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_33 >  15.05
-|   |   |   |   |   |   |   |--- feature_6 <= 146.00
-|   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_6 >  146.00
-|   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |--- feature_6 >  163.50
-|   |   |   |   |   |--- class: Graduate
+|   |   |   |   |--- class: Dropout
 |   |   |   |--- feature_16 >  0.50
 |   |   |   |   |--- feature_19 <= 24.50
-|   |   |   |   |   |--- feature_12 <= 119.75
-|   |   |   |   |   |   |--- feature_34 <= 2.00
-|   |   |   |   |   |   |   |--- feature_2 <= 2.50
-|   |   |   |   |   |   |   |   |--- feature_6 <= 113.00
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_6 >  113.00
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |--- feature_2 >  2.50
-|   |   |   |   |   |   |   |   |--- feature_35 <= 0.41
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_35 >  0.41
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_34 >  2.00
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |--- feature_12 >  119.75
-|   |   |   |   |   |   |--- feature_33 <= 14.70
-|   |   |   |   |   |   |   |--- feature_2 <= 3.50
-|   |   |   |   |   |   |   |   |--- feature_1 <= 8.50
-|   |   |   |   |   |   |   |   |   |--- feature_9 <= 3.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_19 <= 18.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- feature_19 >  18.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- feature_9 >  3.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 <= 2.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 >  2.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |--- feature_1 >  8.50
-|   |   |   |   |   |   |   |   |   |--- feature_19 <= 18.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 <= 3.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 >  3.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- feature_19 >  18.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 <= 2.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 >  2.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |--- feature_2 >  3.50
-|   |   |   |   |   |   |   |   |--- feature_11 <= 3.00
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_11 >  3.00
-|   |   |   |   |   |   |   |   |   |--- feature_35 <= 1.88
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_35 >  1.88
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |--- feature_33 >  14.70
-|   |   |   |   |   |   |   |--- feature_6 <= 134.50
-|   |   |   |   |   |   |   |   |--- feature_12 <= 126.40
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_12 >  126.40
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_6 >  134.50
-|   |   |   |   |   |   |   |   |--- feature_8 <= 2.00
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_8 >  2.00
-|   |   |   |   |   |   |   |   |   |--- feature_2 <= 1.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_2 >  1.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
+|   |   |   |   |   |--- class: Graduate
 |   |   |   |   |--- feature_19 >  24.50
 |   |   |   |   |   |--- class: Dropout
 |   |   |--- feature_28 >  0.50
 |   |   |   |--- feature_10 <= 133.00
 |   |   |   |   |--- feature_29 <= 7.50
 |   |   |   |   |   |--- feature_31 <= 14.50
-|   |   |   |   |   |   |--- feature_6 <= 99.50
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_6 >  99.50
-|   |   |   |   |   |   |   |--- feature_7 <= 23.50
-|   |   |   |   |   |   |   |   |--- feature_29 <= 5.50
-|   |   |   |   |   |   |   |   |   |--- feature_11 <= 9.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_11 >  9.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_34 <= -0.55
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- feature_34 >  -0.55
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_29 >  5.50
-|   |   |   |   |   |   |   |   |   |--- feature_33 <= 10.10
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 <= 137.10
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 >  137.10
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_33 >  10.10
-|   |   |   |   |   |   |   |   |   |   |--- feature_34 <= 3.25
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_34 >  3.25
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |--- feature_7 >  23.50
-|   |   |   |   |   |   |   |   |--- feature_34 <= 2.10
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_34 >  2.10
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |   |   |--- class: Dropout
 |   |   |   |   |   |--- feature_31 >  14.50
 |   |   |   |   |   |   |--- class: Enrolled
 |   |   |   |   |--- feature_29 >  7.50
 |   |   |   |   |   |--- feature_34 <= -0.55
 |   |   |   |   |   |   |--- feature_12 <= 120.20
-|   |   |   |   |   |   |   |--- feature_25 <= 14.75
-|   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |--- feature_25 >  14.75
-|   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_12 >  120.20
-|   |   |   |   |   |   |   |--- feature_12 <= 127.10
-|   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_12 >  127.10
-|   |   |   |   |   |   |   |   |--- feature_6 <= 139.50
-|   |   |   |   |   |   |   |   |   |--- feature_26 <= 5.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_26 >  5.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_6 >  139.50
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |--- feature_34 >  -0.55
-|   |   |   |   |   |   |--- feature_16 <= 0.50
 |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_16 >  0.50
-|   |   |   |   |   |   |   |--- feature_5 <= 29.00
-|   |   |   |   |   |   |   |   |--- feature_6 <= 115.50
-|   |   |   |   |   |   |   |   |   |--- feature_1 <= 28.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_3 <= 9377.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_3 >  9377.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_1 >  28.00
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_6 >  115.50
-|   |   |   |   |   |   |   |   |   |--- feature_11 <= 4.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_11 >  4.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_33 <= 9.85
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- feature_33 >  9.85
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |--- feature_5 >  29.00
-|   |   |   |   |   |   |   |   |--- feature_33 <= 13.15
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_33 >  13.15
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |   |--- feature_12 >  120.20
+|   |   |   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |   |--- feature_34 >  -0.55
+|   |   |   |   |   |   |--- class: Dropout
 |   |   |   |--- feature_10 >  133.00
-|   |   |   |   |--- feature_29 <= 3.00
-|   |   |   |   |   |--- class: Dropout
-|   |   |   |   |--- feature_29 >  3.00
-|   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |--- class: Enrolled
 |   |--- feature_30 >  1.50
 |   |   |--- feature_16 <= 0.50
-|   |   |   |--- feature_29 <= 17.00
-|   |   |   |   |--- feature_19 <= 19.50
-|   |   |   |   |   |--- feature_3 <= 9133.00
-|   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |--- feature_3 >  9133.00
-|   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |--- feature_19 >  19.50
-|   |   |   |   |   |--- class: Dropout
-|   |   |   |--- feature_29 >  17.00
-|   |   |   |   |--- feature_13 <= 0.50
-|   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |--- feature_13 >  0.50
-|   |   |   |   |   |--- class: Dropout
+|   |   |   |--- class: Dropout
 |   |   |--- feature_16 >  0.50
 |   |   |   |--- feature_19 <= 22.50
 |   |   |   |   |--- feature_13 <= 0.50
 |   |   |   |   |   |--- feature_10 <= 1.50
 |   |   |   |   |   |   |--- class: Dropout
 |   |   |   |   |   |--- feature_10 >  1.50
-|   |   |   |   |   |   |--- feature_32 <= 2.50
-|   |   |   |   |   |   |   |--- feature_12 <= 128.35
-|   |   |   |   |   |   |   |   |--- feature_12 <= 114.70
-|   |   |   |   |   |   |   |   |   |--- feature_23 <= 9.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_25 <= 11.75
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_25 >  11.75
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- feature_23 >  9.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_12 >  114.70
-|   |   |   |   |   |   |   |   |   |--- feature_3 <= 9636.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_3 >  9636.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 <= 4.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 >  4.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_12 >  128.35
-|   |   |   |   |   |   |   |   |--- feature_11 <= 6.50
-|   |   |   |   |   |   |   |   |   |--- feature_12 <= 129.95
-|   |   |   |   |   |   |   |   |   |   |--- feature_1 <= 9.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_1 >  9.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |--- feature_12 >  129.95
-|   |   |   |   |   |   |   |   |   |   |--- feature_25 <= 13.30
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_25 >  13.30
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- feature_11 >  6.50
-|   |   |   |   |   |   |   |   |   |--- feature_19 <= 19.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_19 >  19.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_1 <= 30.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- feature_1 >  30.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_32 >  2.50
-|   |   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |   |--- class: Enrolled
 |   |   |   |   |--- feature_13 >  0.50
 |   |   |   |   |   |--- feature_9 <= 37.50
-|   |   |   |   |   |   |--- feature_35 <= -1.31
-|   |   |   |   |   |   |   |--- feature_30 <= 2.50
-|   |   |   |   |   |   |   |   |--- feature_11 <= 2.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_11 >  2.50
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |--- feature_30 >  2.50
-|   |   |   |   |   |   |   |   |--- feature_6 <= 129.50
-|   |   |   |   |   |   |   |   |   |--- feature_3 <= 9813.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_18 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- feature_18 >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |--- feature_3 >  9813.00
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_6 >  129.50
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |--- feature_35 >  -1.31
-|   |   |   |   |   |   |   |--- feature_17 <= 0.50
-|   |   |   |   |   |   |   |   |--- feature_19 <= 20.50
-|   |   |   |   |   |   |   |   |   |--- feature_31 <= 10.58
-|   |   |   |   |   |   |   |   |   |   |--- feature_35 <= 0.56
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_35 >  0.56
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- feature_31 >  10.58
-|   |   |   |   |   |   |   |   |   |   |--- feature_18 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- feature_18 >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- feature_19 >  20.50
-|   |   |   |   |   |   |   |   |   |--- feature_25 <= 12.12
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_25 >  12.12
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 <= 14.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 >  14.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |--- feature_17 >  0.50
-|   |   |   |   |   |   |   |   |--- feature_3 <= 9077.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_3 >  9077.50
-|   |   |   |   |   |   |   |   |   |--- feature_34 <= 1.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 <= 4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 >  4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |--- feature_34 >  1.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 <= 139.30
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 >  139.30
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |   |   |--- class: Dropout
 |   |   |   |   |   |--- feature_9 >  37.50
-|   |   |   |   |   |   |--- feature_3 <= 9246.00
-|   |   |   |   |   |   |   |--- feature_31 <= 10.17
-|   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |--- feature_31 >  10.17
-|   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_3 >  9246.00
-|   |   |   |   |   |   |   |--- feature_17 <= 0.50
-|   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |--- feature_17 >  0.50
-|   |   |   |   |   |   |   |   |--- feature_2 <= 1.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_2 >  1.50
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
+|   |   |   |   |   |   |--- class: Enrolled
 |   |   |   |--- feature_19 >  22.50
 |   |   |   |   |--- feature_6 <= 132.05
-|   |   |   |   |   |--- feature_29 <= 7.50
-|   |   |   |   |   |   |--- feature_24 <= 5.50
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_24 >  5.50
-|   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |--- feature_29 >  7.50
-|   |   |   |   |   |   |--- feature_21 <= 0.50
-|   |   |   |   |   |   |   |--- feature_25 <= 10.78
-|   |   |   |   |   |   |   |   |--- feature_34 <= 1.55
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_34 >  1.55
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |--- feature_25 >  10.78
-|   |   |   |   |   |   |   |   |--- feature_12 <= 109.50
-|   |   |   |   |   |   |   |   |   |--- feature_12 <= 102.90
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_12 >  102.90
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_12 >  109.50
-|   |   |   |   |   |   |   |   |   |--- feature_27 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_27 >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |--- feature_21 >  0.50
-|   |   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |--- class: Enrolled
 |   |   |   |   |--- feature_6 >  132.05
-|   |   |   |   |   |--- feature_25 <= 12.90
-|   |   |   |   |   |   |--- feature_24 <= 6.50
-|   |   |   |   |   |   |   |--- feature_10 <= 140.50
-|   |   |   |   |   |   |   |   |--- feature_32 <= 0.50
-|   |   |   |   |   |   |   |   |   |--- feature_29 <= 6.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_17 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_17 >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_29 >  6.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_32 >  0.50
-|   |   |   |   |   |   |   |   |   |--- feature_10 <= 7.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_10 >  7.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_25 <= 11.42
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_25 >  11.42
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_10 >  140.50
-|   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_24 >  6.50
-|   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |--- feature_25 >  12.90
-|   |   |   |   |   |   |--- feature_8 <= 28.00
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_8 >  28.00
-|   |   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |--- class: Dropout
 |--- feature_30 >  3.50
 |   |--- feature_30 <= 5.50
 |   |   |--- feature_16 <= 0.50
 |   |   |   |--- feature_35 <= 1.90
 |   |   |   |   |--- feature_7 <= 19.50
-|   |   |   |   |   |--- feature_25 <= 10.63
-|   |   |   |   |   |   |--- feature_18 <= 0.50
-|   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_18 >  0.50
-|   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |--- feature_25 >  10.63
-|   |   |   |   |   |   |--- feature_34 <= 0.00
-|   |   |   |   |   |   |   |--- feature_9 <= 10.00
-|   |   |   |   |   |   |   |   |--- feature_12 <= 111.50
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_12 >  111.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_9 >  10.00
-|   |   |   |   |   |   |   |   |--- feature_22 <= 8.00
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_22 >  8.00
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_34 >  0.00
-|   |   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |--- class: Dropout
 |   |   |   |   |--- feature_7 >  19.50
-|   |   |   |   |   |--- feature_11 <= 9.50
-|   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |--- feature_11 >  9.50
-|   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |--- class: Graduate
 |   |   |   |--- feature_35 >  1.90
 |   |   |   |   |--- feature_1 <= 28.50
-|   |   |   |   |   |--- feature_25 <= 11.70
-|   |   |   |   |   |   |--- feature_1 <= 9.00
-|   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_1 >  9.00
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |--- feature_25 >  11.70
-|   |   |   |   |   |   |--- feature_2 <= 3.00
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_2 >  3.00
-|   |   |   |   |   |   |   |--- feature_10 <= 8.00
-|   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_10 >  8.00
-|   |   |   |   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |   |--- class: Enrolled
 |   |   |   |   |--- feature_1 >  28.50
-|   |   |   |   |   |--- feature_10 <= 3.00
-|   |   |   |   |   |   |--- feature_15 <= 0.50
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_15 >  0.50
-|   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |--- feature_10 >  3.00
-|   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |--- class: Dropout
 |   |   |--- feature_16 >  0.50
 |   |   |   |--- feature_30 <= 4.50
 |   |   |   |   |--- feature_3 <= 9813.00
 |   |   |   |   |   |--- feature_24 <= 3.50
-|   |   |   |   |   |   |--- feature_19 <= 20.50
-|   |   |   |   |   |   |   |--- feature_15 <= 0.50
-|   |   |   |   |   |   |   |   |--- feature_35 <= 2.76
-|   |   |   |   |   |   |   |   |   |--- feature_2 <= 5.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |--- feature_2 >  5.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_35 >  2.76
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |--- feature_15 >  0.50
-|   |   |   |   |   |   |   |   |--- feature_6 <= 126.50
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_6 >  126.50
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |--- feature_19 >  20.50
-|   |   |   |   |   |   |   |--- feature_34 <= 2.00
-|   |   |   |   |   |   |   |   |--- feature_10 <= 3.50
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_10 >  3.50
-|   |   |   |   |   |   |   |   |   |--- feature_19 <= 36.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 <= 8.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 >  8.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_19 >  36.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_34 >  2.00
-|   |   |   |   |   |   |   |   |--- feature_6 <= 116.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_6 >  116.50
-|   |   |   |   |   |   |   |   |   |--- feature_18 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_18 >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |   |   |--- class: Enrolled
 |   |   |   |   |   |--- feature_24 >  3.50
 |   |   |   |   |   |   |--- feature_18 <= 0.50
 |   |   |   |   |   |   |   |--- feature_28 <= 5.50
-|   |   |   |   |   |   |   |   |--- feature_35 <= -3.59
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_35 >  -3.59
-|   |   |   |   |   |   |   |   |   |--- feature_32 <= 2.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_33 <= 10.95
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- feature_33 >  10.95
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |--- feature_32 >  2.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_34 <= 1.45
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_34 >  1.45
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |   |   |   |   |--- class: Graduate
 |   |   |   |   |   |   |   |--- feature_28 >  5.50
 |   |   |   |   |   |   |   |   |--- feature_2 <= 1.50
-|   |   |   |   |   |   |   |   |   |--- feature_27 <= 3.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_19 <= 18.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- feature_19 >  18.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |   |   |   |--- feature_27 >  3.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 110.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  110.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |   |   |   |   |--- class: Enrolled
 |   |   |   |   |   |   |   |   |--- feature_2 >  1.50
-|   |   |   |   |   |   |   |   |   |--- feature_6 <= 116.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 <= 1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 >  1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_6 >  116.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 <= 4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 >  4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |--- feature_18 >  0.50
-|   |   |   |   |   |   |   |--- feature_17 <= 0.50
-|   |   |   |   |   |   |   |   |--- feature_11 <= 3.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_11 >  3.50
 |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_17 >  0.50
-|   |   |   |   |   |   |   |   |--- feature_19 <= 19.00
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_19 >  19.00
-|   |   |   |   |   |   |   |   |   |--- feature_25 <= 10.62
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_25 >  10.62
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 <= 10.66
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 >  10.66
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |--- feature_3 >  9813.00
-|   |   |   |   |   |--- feature_25 <= 12.80
-|   |   |   |   |   |   |--- feature_11 <= 1.50
-|   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_11 >  1.50
-|   |   |   |   |   |   |   |--- feature_19 <= 19.50
-|   |   |   |   |   |   |   |   |--- feature_25 <= 12.08
-|   |   |   |   |   |   |   |   |   |--- feature_31 <= 11.00
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_31 >  11.00
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_25 >  12.08
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_19 >  19.50
-|   |   |   |   |   |   |   |   |--- feature_29 <= 10.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_29 >  10.50
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |--- feature_25 >  12.80
-|   |   |   |   |   |   |--- feature_29 <= 7.50
+|   |   |   |   |   |   |--- feature_18 >  0.50
 |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |--- feature_29 >  7.50
-|   |   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |--- feature_3 >  9813.00
+|   |   |   |   |   |--- class: Enrolled
 |   |   |   |--- feature_30 >  4.50
 |   |   |   |   |--- feature_28 <= 6.50
 |   |   |   |   |   |--- feature_23 <= 7.50
-|   |   |   |   |   |   |--- feature_15 <= 0.50
-|   |   |   |   |   |   |   |--- feature_28 <= 5.50
-|   |   |   |   |   |   |   |   |--- feature_31 <= 11.10
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_31 >  11.10
-|   |   |   |   |   |   |   |   |   |--- feature_26 <= 1.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 7.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
-|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  7.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_26 >  1.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_28 >  5.50
-|   |   |   |   |   |   |   |   |--- feature_24 <= 4.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_24 >  4.50
-|   |   |   |   |   |   |   |   |   |--- feature_22 <= 6.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 <= 4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 >  4.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
-|   |   |   |   |   |   |   |   |   |--- feature_22 >  6.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 <= 6.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 >  6.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_15 >  0.50
-|   |   |   |   |   |   |   |--- feature_29 <= 7.50
-|   |   |   |   |   |   |   |   |--- feature_35 <= 1.90
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_35 >  1.90
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_29 >  7.50
-|   |   |   |   |   |   |   |   |--- feature_31 <= 12.52
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_31 >  12.52
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
+|   |   |   |   |   |   |--- class: Graduate
 |   |   |   |   |   |--- feature_23 >  7.50
 |   |   |   |   |   |   |--- feature_3 <= 9813.00
 |   |   |   |   |   |   |   |--- feature_6 <= 133.05
-|   |   |   |   |   |   |   |   |--- feature_12 <= 125.55
-|   |   |   |   |   |   |   |   |   |--- feature_12 <= 113.55
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 <= 5.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 >  5.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |--- feature_12 >  113.55
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 <= 1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_24 >  1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |--- feature_12 >  125.55
-|   |   |   |   |   |   |   |   |   |--- feature_23 <= 11.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_25 <= 15.06
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- feature_25 >  15.06
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_23 >  11.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 <= 8.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_10 >  8.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- class: Graduate
 |   |   |   |   |   |   |   |--- feature_6 >  133.05
 |   |   |   |   |   |   |   |   |--- feature_12 <= 143.45
 |   |   |   |   |   |   |   |   |   |--- feature_23 <= 11.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 <= 133.65
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 >  133.65
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
 |   |   |   |   |   |   |   |   |   |--- feature_23 >  11.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 <= 14.70
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 >  14.70
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_12 >  143.45
-|   |   |   |   |   |   |   |   |   |--- feature_31 <= 14.88
-|   |   |   |   |   |   |   |   |   |   |--- feature_29 <= 15.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |   |--- feature_29 >  15.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_31 >  14.88
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_3 >  9813.00
-|   |   |   |   |   |   |   |--- feature_24 <= 5.50
-|   |   |   |   |   |   |   |   |--- feature_34 <= 2.70
-|   |   |   |   |   |   |   |   |   |--- feature_1 <= 28.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 <= 13.45
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 >  13.45
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |--- feature_1 >  28.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 <= 11.17
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 >  11.17
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |--- feature_34 >  2.70
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_24 >  5.50
-|   |   |   |   |   |   |   |   |--- feature_33 <= 8.25
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_33 >  8.25
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |--- feature_28 >  6.50
-|   |   |   |   |   |--- feature_21 <= 0.50
-|   |   |   |   |   |   |--- feature_12 <= 110.40
-|   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |--- feature_12 >  110.40
-|   |   |   |   |   |   |   |--- feature_19 <= 31.50
-|   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_19 >  31.50
-|   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |--- feature_21 >  0.50
-|   |   |   |   |   |   |--- feature_17 <= 0.50
-|   |   |   |   |   |   |   |--- feature_29 <= 11.50
-|   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_29 >  11.50
-|   |   |   |   |   |   |   |   |--- feature_26 <= 0.50
-|   |   |   |   |   |   |   |   |   |--- feature_6 <= 135.00
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_6 >  135.00
 |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_26 >  0.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_17 >  0.50
-|   |   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |   |   |   |--- feature_12 >  143.45
+|   |   |   |   |   |   |   |   |   |--- class: Graduate
+|   |   |   |   |   |   |--- feature_3 >  9813.00
+|   |   |   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |--- feature_28 >  6.50
+|   |   |   |   |   |--- feature_27 <= 0.50
+|   |   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |   |--- feature_27 >  0.50
+|   |   |   |   |   |   |--- class: Dropout
 |   |--- feature_30 >  5.50
 |   |   |--- feature_23 <= 8.50
-|   |   |   |--- feature_16 <= 0.50
-|   |   |   |   |--- feature_23 <= 6.50
-|   |   |   |   |   |--- class: Graduate
-|   |   |   |   |--- feature_23 >  6.50
-|   |   |   |   |   |--- feature_31 <= 12.25
-|   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |--- feature_31 >  12.25
-|   |   |   |   |   |   |--- feature_12 <= 139.95
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_12 >  139.95
-|   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |--- feature_16 >  0.50
-|   |   |   |   |--- feature_29 <= 9.50
-|   |   |   |   |   |--- feature_32 <= 0.50
-|   |   |   |   |   |   |--- feature_31 <= 17.30
-|   |   |   |   |   |   |   |--- feature_24 <= 4.50
-|   |   |   |   |   |   |   |   |--- feature_6 <= 125.05
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_6 >  125.05
-|   |   |   |   |   |   |   |   |   |--- feature_6 <= 134.55
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_6 >  134.55
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_24 >  4.50
-|   |   |   |   |   |   |   |   |--- feature_8 <= 4.50
-|   |   |   |   |   |   |   |   |   |--- feature_31 <= 11.08
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_31 >  11.08
-|   |   |   |   |   |   |   |   |   |   |--- feature_19 <= 23.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
-|   |   |   |   |   |   |   |   |   |   |--- feature_19 >  23.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |--- feature_8 >  4.50
-|   |   |   |   |   |   |   |   |   |--- feature_2 <= 5.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_6 <= 133.05
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
-|   |   |   |   |   |   |   |   |   |   |--- feature_6 >  133.05
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |   |--- feature_2 >  5.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_3 <= 9813.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- feature_3 >  9813.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_31 >  17.30
-|   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |--- feature_32 >  0.50
-|   |   |   |   |   |   |--- feature_33 <= 14.45
-|   |   |   |   |   |   |   |--- feature_34 <= 0.90
-|   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_34 >  0.90
-|   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_33 >  14.45
-|   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |--- feature_29 >  9.50
-|   |   |   |   |   |--- feature_8 <= 38.50
-|   |   |   |   |   |   |--- feature_6 <= 108.00
-|   |   |   |   |   |   |   |--- feature_3 <= 9636.50
-|   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_3 >  9636.50
-|   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_6 >  108.00
-|   |   |   |   |   |   |   |--- feature_2 <= 5.50
-|   |   |   |   |   |   |   |   |--- feature_22 <= 5.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |--- feature_22 >  5.50
-|   |   |   |   |   |   |   |   |   |--- feature_21 <= 3.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_35 <= -2.88
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |   |--- feature_35 >  -2.88
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |--- feature_21 >  3.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_2 >  5.50
-|   |   |   |   |   |   |   |   |--- feature_31 <= 12.58
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_31 >  12.58
-|   |   |   |   |   |   |   |   |   |--- feature_9 <= 37.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_9 >  37.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |--- feature_8 >  38.50
-|   |   |   |   |   |   |--- class: Dropout
+|   |   |   |--- class: Graduate
 |   |   |--- feature_23 >  8.50
 |   |   |   |--- feature_31 <= 13.02
 |   |   |   |   |--- feature_3 <= 9613.00
 |   |   |   |   |   |--- feature_35 <= 1.76
-|   |   |   |   |   |   |--- feature_31 <= 10.99
-|   |   |   |   |   |   |   |--- feature_33 <= 14.70
-|   |   |   |   |   |   |   |   |--- feature_25 <= 10.58
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_25 >  10.58
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_33 >  14.70
-|   |   |   |   |   |   |   |   |--- feature_22 <= 6.50
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_22 >  6.50
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_31 >  10.99
-|   |   |   |   |   |   |   |--- feature_16 <= 0.50
-|   |   |   |   |   |   |   |   |--- feature_25 <= 11.62
-|   |   |   |   |   |   |   |   |   |--- feature_3 <= 9323.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |--- feature_3 >  9323.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_25 >  11.62
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |--- feature_16 >  0.50
-|   |   |   |   |   |   |   |   |--- feature_28 <= 13.50
-|   |   |   |   |   |   |   |   |   |--- feature_3 <= 9528.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 <= 110.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
-|   |   |   |   |   |   |   |   |   |   |--- feature_11 >  110.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_3 >  9528.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_8 <= 10.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_8 >  10.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
-|   |   |   |   |   |   |   |   |--- feature_28 >  13.50
-|   |   |   |   |   |   |   |   |   |--- feature_10 <= 2.00
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_10 >  2.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 <= 112.60
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 >  112.60
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
+|   |   |   |   |   |   |--- class: Graduate
 |   |   |   |   |   |--- feature_35 >  1.76
-|   |   |   |   |   |   |--- feature_19 <= 30.50
-|   |   |   |   |   |   |   |--- feature_24 <= 5.50
-|   |   |   |   |   |   |   |   |--- feature_2 <= 1.50
-|   |   |   |   |   |   |   |   |   |--- feature_10 <= 4.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_10 >  4.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_22 <= 6.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |   |--- feature_22 >  6.50
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |--- feature_2 >  1.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_24 >  5.50
-|   |   |   |   |   |   |   |   |--- feature_15 <= 0.50
-|   |   |   |   |   |   |   |   |   |--- feature_25 <= 13.52
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 <= 11.45
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |   |   |--- feature_31 >  11.45
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
-|   |   |   |   |   |   |   |   |   |--- feature_25 >  13.52
-|   |   |   |   |   |   |   |   |   |   |--- feature_35 <= 2.76
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_35 >  2.76
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- feature_15 >  0.50
-|   |   |   |   |   |   |   |   |   |--- feature_12 <= 127.90
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |--- feature_12 >  127.90
-|   |   |   |   |   |   |   |   |   |   |--- feature_18 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_18 >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |--- feature_19 >  30.50
-|   |   |   |   |   |   |   |--- class: Enrolled
+|   |   |   |   |   |   |--- class: Graduate
 |   |   |   |   |--- feature_3 >  9613.00
-|   |   |   |   |   |--- feature_21 <= 8.50
-|   |   |   |   |   |   |--- feature_24 <= 6.50
-|   |   |   |   |   |   |   |--- feature_29 <= 7.50
-|   |   |   |   |   |   |   |   |--- feature_9 <= 19.00
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_9 >  19.00
-|   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_29 >  7.50
-|   |   |   |   |   |   |   |   |--- feature_23 <= 15.50
-|   |   |   |   |   |   |   |   |   |--- feature_33 <= 11.75
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_33 >  11.75
-|   |   |   |   |   |   |   |   |   |   |--- feature_8 <= 10.00
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_8 >  10.00
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
-|   |   |   |   |   |   |   |   |--- feature_23 >  15.50
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_24 >  6.50
-|   |   |   |   |   |   |   |--- feature_25 <= 10.93
-|   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |--- feature_25 >  10.93
-|   |   |   |   |   |   |   |   |--- feature_29 <= 18.50
-|   |   |   |   |   |   |   |   |   |--- feature_30 <= 6.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_30 >  6.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_29 >  18.50
-|   |   |   |   |   |   |   |   |   |--- feature_21 <= 7.00
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_21 >  7.00
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |--- feature_21 >  8.50
-|   |   |   |   |   |   |--- feature_30 <= 13.00
-|   |   |   |   |   |   |   |--- feature_27 <= 6.50
-|   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_27 >  6.50
-|   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |--- feature_30 >  13.00
-|   |   |   |   |   |   |   |--- class: Graduate
+|   |   |   |   |   |--- class: Dropout
 |   |   |   |--- feature_31 >  13.02
 |   |   |   |   |--- feature_15 <= 0.50
-|   |   |   |   |   |--- feature_11 <= 115.50
-|   |   |   |   |   |   |--- feature_30 <= 7.50
-|   |   |   |   |   |   |   |--- feature_26 <= 0.50
-|   |   |   |   |   |   |   |   |--- feature_29 <= 11.50
-|   |   |   |   |   |   |   |   |   |--- feature_27 <= 5.00
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 <= 171.25
-|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
-|   |   |   |   |   |   |   |   |   |   |--- feature_12 >  171.25
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_27 >  5.00
-|   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_29 >  11.50
-|   |   |   |   |   |   |   |   |   |--- feature_18 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_17 <= 0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |   |--- feature_17 >  0.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |--- feature_18 >  0.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_26 >  0.50
-|   |   |   |   |   |   |   |   |--- feature_29 <= 10.50
-|   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |--- feature_29 >  10.50
-|   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_30 >  7.50
-|   |   |   |   |   |   |   |--- feature_9 <= 11.00
-|   |   |   |   |   |   |   |   |--- feature_19 <= 23.50
-|   |   |   |   |   |   |   |   |   |--- feature_24 <= 6.50
-|   |   |   |   |   |   |   |   |   |   |--- feature_2 <= 1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |   |   |--- feature_2 >  1.50
-|   |   |   |   |   |   |   |   |   |   |   |--- class: Dropout
-|   |   |   |   |   |   |   |   |   |--- feature_24 >  6.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |   |--- feature_19 >  23.50
-|   |   |   |   |   |   |   |   |   |--- feature_30 <= 9.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |   |   |   |--- feature_30 >  9.50
-|   |   |   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |   |   |--- feature_9 >  11.00
-|   |   |   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |--- feature_11 >  115.50
-|   |   |   |   |   |   |--- feature_27 <= 3.00
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_27 >  3.00
-|   |   |   |   |   |   |   |--- class: Graduate
+|   |   |   |   |   |--- class: Graduate
 |   |   |   |   |--- feature_15 >  0.50
-|   |   |   |   |   |--- feature_19 <= 21.50
-|   |   |   |   |   |   |--- class: Graduate
-|   |   |   |   |   |--- feature_19 >  21.50
-|   |   |   |   |   |   |--- feature_28 <= 9.50
-|   |   |   |   |   |   |   |--- class: Enrolled
-|   |   |   |   |   |   |--- feature_28 >  9.50
-|   |   |   |   |   |   |   |--- class: Dropout
+|   |   |   |   |   |--- class: Enrolled
