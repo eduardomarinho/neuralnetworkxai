@@ -31,7 +31,7 @@ yset=data["income"]
 #divisão do dataset entre treinamento e testes
 xset_train, xset_test, yset_train, yset_test = train_test_split(xset, yset, test_size=0.3, random_state=42)
 
-modeloarvore = tree.DecisionTreeClassifier()
+modeloarvore = tree.DecisionTreeClassifier(max_leaf_nodes=40)
 # Fit ou treinamento do modelo, com métrica de tempo
 start_time = time.time()
 modeloarvore = modeloarvore.fit(xset_train,yset_train)
